@@ -1,7 +1,7 @@
 ---
 title: The Magic of the Keezer
-date: 2017-07-14 08:05:47
-tag: keezer, 
+date: 2017-07-01 08:00:00
+tag: keezer, beer
 ---
 
 A big part of my day job as an engineer is understanding how things work.  Being able to look at the latest Wi-Fi connected thing-a-matron and infer the general hardware and software architecture is very useful, but a lot of the magic is gone.  New projects tend to be more development work than exciting exploration.  This really is a good thing.  Every year I look back and think 'Wow, I didn't know anything last year, but now I do!' (at least until next year).  Unfortunately, the gains in productivity were at the cost of wonderment.
