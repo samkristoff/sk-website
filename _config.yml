@@ -78,4 +78,11 @@ theme: hueman
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: aws-s3
+  region: us-west-2
+  bucket: samkristoff.com
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20

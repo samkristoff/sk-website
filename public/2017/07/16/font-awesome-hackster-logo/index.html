@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    
+    <title>Adding Custom Icon to Font Awesome | Sam Kristoff</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+        <meta name="keywords" content="software,graphics,inkscape" />
+    
+    <meta name="description" content="I updated the ‘follow’ buttons on samkristoff.com this morning and noticed that Font Awesome, does not have a Hackster.io icon.  I opened a github issue requesting the new icon, but I need the icon n">
+<meta name="keywords" content="software,graphics,inkscape">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Adding Custom Icon to Font Awesome">
+<meta property="og:url" content="http://samkristoff.com/2017/07/16/font-awesome-hackster-logo/index.html">
+<meta property="og:site_name" content="Sam Kristoff">
+<meta property="og:description" content="I updated the ‘follow’ buttons on samkristoff.com this morning and noticed that Font Awesome, does not have a Hackster.io icon.  I opened a github issue requesting the new icon, but I need the icon n">
+<meta property="og:image" content="http://samkristoff.com/2017/07/16/font-awesome-hackster-logo/hackster-logo.png">
+<meta property="og:updated_time" content="2017-07-16T18:54:48.593Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Adding Custom Icon to Font Awesome">
+<meta name="twitter:description" content="I updated the ‘follow’ buttons on samkristoff.com this morning and noticed that Font Awesome, does not have a Hackster.io icon.  I opened a github issue requesting the new icon, but I need the icon n">
+<meta name="twitter:image" content="http://samkristoff.com/2017/07/16/font-awesome-hackster-logo/hackster-logo.png">
+    
+
+    
+        <link rel="alternate" href="/atom.xml" title="Sam Kristoff" type="application/atom+xml" />
+    
+
+    
+
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/libs/titillium-web/styles.css">
+    <link rel="stylesheet" href="/libs/source-code-pro/styles.css">
+
+    <link rel="stylesheet" href="/css/style.css">
+
+    <script src="/libs/jquery/2.0.3/jquery.min.js"></script>
+    
+    
+        <link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css">
+    
+    
+        <link rel="stylesheet" href="/libs/justified-gallery/justifiedGallery.min.css">
+    
+    
+        <script type="text/javascript">
+(function(i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-58289120-2', 'auto');
+ga('send', 'pageview');
+
+</script>
+    
+    
+
+
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="header">
+    <div id="header-outer" class="outer">
+        <div class="container">
+            <div class="container-inner">
+                <div id="header-title">
+                    <h1 class="logo-wrap">
+                        <a href="/" class="logo"></a>
+                    </h1>
+                    
+                </div>
+                <div id="header-inner" class="nav-container">
+                    <a id="main-nav-toggle" class="nav-icon fa fa-bars"></a>
+                    <div class="nav-container-inner">
+                        <ul id="main-nav">
+                            
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/">Home</a>
+                                </li>
+                            
+                                        
+                                    
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/about/index.html">About</a>
+                                </li>
+                            
+                        </ul>
+                        <nav id="sub-nav">
+                            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Posts',
+            PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+<script src="/js/insight.js"></script>
+
+</div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+        <div class="container">
+            <div class="main-body container-inner">
+                <div class="main-body-inner">
+                    <section id="main">
+                        <div class="main-body-header">
+    <h1 class="header">
+    
+    uncategorized
+    </h1>
+</div>
+                        <div class="main-body-content">
+                            <article id="post-font-awesome-hackster-logo" class="article article-single article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+            <header class="article-header">
+                
+    
+        <h1 class="article-title" itemprop="name">
+        Adding Custom Icon to Font Awesome
+        </h1>
+    
+
+            </header>
+        
+        
+            <div class="article-meta">
+                
+    <div class="article-date">
+        <a href="/2017/07/16/font-awesome-hackster-logo/" class="article-date">
+            <time datetime="2017-07-16T15:51:11.000Z" itemprop="datePublished">2017-07-16</time>
+        </a>
+    </div>
+
+                
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/graphics/">graphics</a>, <a class="tag-link" href="/tags/inkscape/">inkscape</a>, <a class="tag-link" href="/tags/software/">software</a>
+    </div>
+
+            </div>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+            <img src="/2017/07/16/font-awesome-hackster-logo/hackster-logo.png" alt="Hackster Logo" title="Hackster Logo">
+<p>I updated the ‘follow’ buttons on <a href="my website">samkristoff.com</a> this morning and noticed that <a href="http://fontawesome.io/" target="_blank" rel="external">Font Awesome</a>, does not have a <a href="https://www.hackster.io" target="_blank" rel="external">Hackster.io</a> icon.  I opened a <a href="https://github.com/FortAwesome/Font-Awesome/issues/11298" target="_blank" rel="external">github issue</a> requesting the new icon, but I need the icon now.</p>
+<h3 id="Acquiring-Source-Images"><a href="#Acquiring-Source-Images" class="headerlink" title="Acquiring Source Images"></a>Acquiring Source Images</h3><p>I noticed two Hackster logos on my <a href="https://www.hackster.io/samkristoff" target="_blank" rel="external">profile page</a> - the round one in the upper left and the square ‘favicon’.  </p>
+<img src="/2017/07/16/font-awesome-hackster-logo/hackster-potential-icons.png" alt="Potential Hackster Icons" title="Potential Hackster Icons">
+<p>The round one is easy to grab, just right click and <strong>Save Image As</strong>.  The favicon is a little more tricky, but using the Chrome Developer tools it’s easy to find.  Right click anywhere in the page and choose <strong>Inspect</strong>.  Make sure the  <strong>Elements</strong>  tab is active, then press <strong>Ctrl+F</strong> and search for ‘favicon’ and you’ll quickly find the image url.  Paste the url in a new tab and you can save a copy of the square icon as well.</p>
+<h3 id="PNG-to-SVG"><a href="#PNG-to-SVG" class="headerlink" title="PNG to SVG"></a>PNG to SVG</h3><p>Both images are .png’s and the round icon has some extra text.  We need clean .svg’s for the next step so <a href="https://www.getpaint.net/" target="_blank" rel="external">paint.net</a> (or your editor of choice) to crop out the ‘hackster.io’ text from the round image.  Next import the first .png into <a href="https://inkscape.org/en/" target="_blank" rel="external">inkscape</a> by dragging it into a new Inkscape window.  Make sure the icon is selected and choose <strong>Path&gt;&gt;Trace Bitmap</strong>.  Under <strong>Multiple Scans</strong> choose <strong>Colors</strong> and set <strong>Scans</strong> to 2.  Click <strong>OK</strong> to generate the vector version of the logo then change the <strong>Fill</strong> to <strong>#444444FF</strong>.</p>
+<img src="/2017/07/16/font-awesome-hackster-logo/inkscape-trace-bitmap.png" alt="Inkscape - Trace Bitmap" title="Inkscape - Trace Bitmap">
+<p><em>In the end the circle logo was a bit too small so I cut went with the ‘H’ without the circle and it looked much better’</em></p>
+<h3 id="Generate-a-Custom-Font-Awesome-Library"><a href="#Generate-a-Custom-Font-Awesome-Library" class="headerlink" title="Generate a Custom Font Awesome Library"></a>Generate a Custom Font Awesome Library</h3><img src="/2017/07/16/font-awesome-hackster-logo/icomoon-custom-font-awesome.png" alt="Inkscape - Icomoon Custom Font Awesome Library" title="Inkscape - Icomoon Custom Font Awesome Library">
+<p>Launch the <a href="https://icomoon.io/app" target="_blank" rel="external">Icomoon App</a> to customize the Font Awesome library.  Choose <strong>Add Icons From Library</strong> and select <strong>Font Awesome</strong>.  Click the hamburger menu in the upper right, choose <strong>Import to Set</strong>, and select your new .svg.  Click <strong>Generate Font</strong> in the lower right and download the new custom Font Awesome library.  Extract the .zip and rename all the files in <strong>/font</strong> to <strong>fontawesome-webfont</strong>, leaving the extensions unaltered.  Convert the .woff to a .woff2 using your <a href="https://everythingfonts.com/woff-to-woff2" target="_blank" rel="external">tool</a> of choice and add the .woff2 to the <strong>/font</strong> folder.</p>
+<p>We need to add css for the new icon.  On the Icomoon download page, hover over the new icon and click <strong>Get Code</strong>.  Copy the <strong>CSS</strong> and change ‘.icon-‘ to ‘.fa’.  Paste the updated <strong>CSS</strong> it into your font-awesome.css file.  For example:</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.fa-hackster</span><span class="selector-pseudo">:before</span> &#123;</div><div class="line">  <span class="attribute">content</span>: <span class="string">"\e901"</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p><em>Note: If you have both font-awesome.css and font-awesome.min.css chances are the .min version is being used in your website, make sure to update both.</em></p>
+<h3 id="Success"><a href="#Success" class="headerlink" title="Success!"></a>Success!</h3><p>The circle </p>
+<img src="/2017/07/16/font-awesome-hackster-logo/new-hackster-icon.png" alt="Inkscape - Fancy New Hackster Icon" title="Inkscape - Fancy New Hackster Icon">
+
+        </div>
+        <footer class="article-footer">
+            
+
+
+
+    <a data-url="http://samkristoff.com/2017/07/16/font-awesome-hackster-logo/" data-id="cj572xyrp0000s0ro8wulcch1" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+<script>
+    (function ($) {
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+        </footer>
+    </div>
+</article>
+
+    <section id="comments">
+    
+        
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
+    
+    </section>
+
+
+                        </div>
+                    </section>
+                    <aside id="sidebar">
+    <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
+    <div class="sidebar-top">
+        <p>follow:</p>
+        <ul class="social-links">
+            
+                
+                <li>
+                    <a class="social-tooltip" title="github" href="https://www.github.com/samkristoff" target="_blank">
+                        <i class="icon fa fa-github"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="hackster" href="https://www.hackster.io/samkristoff" target="_blank">
+                        <i class="icon fa fa-hackster"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="linkedin" href="https://www.linkedin.com/in/samkristoff/" target="_blank">
+                        <i class="icon fa fa-linkedin"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="twitter" href="https://twitter.com/samkristoff" target="_blank">
+                        <i class="icon fa fa-twitter"></i>
+                    </a>
+                </li>
+                
+            
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="google-plus" href="https://plus.google.com/+SamuelKristoff" target="_blank">
+                        <i class="icon fa fa-google-plus"></i>
+                    </a>
+                </li>
+                
+            
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="rss" href="/atom.xml" target="_blank">
+                        <i class="icon fa fa-rss"></i>
+                    </a>
+                </li>
+                
+            
+        </ul>
+    </div>
+    
+        
+<nav id="article-nav">
+    
+    
+        <a href="/2017/07/11/freezer-temperature-control/" id="article-nav-older" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">older</strong>
+        <p class="article-nav-title">Freezer Temperature Control.</p>
+        <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
+        </a>
+    
+</nav>
+
+    
+    <div class="widgets-container">
+        
+            
+                
+    <div class="widget-wrap">
+        <h3 class="widget-title">recents</h3>
+        <div class="widget">
+            <ul id="recent-post" class="">
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2017/07/16/font-awesome-hackster-logo/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/2017/07/16/font-awesome-hackster-logo/hackster-logo.png)" alt="Adding Custom Icon to Font Awesome" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2017/07/16/font-awesome-hackster-logo/" class="title">Adding Custom Icon to Font Awesome</a></p>
+                            <p class="item-date"><time datetime="2017-07-16T15:51:11.000Z" itemprop="datePublished">2017-07-16</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2017/07/11/freezer-temperature-control/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/2017/07/11/freezer-temperature-control/temperature-control.png)" alt="Freezer Temperature Control." class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2017/07/11/freezer-temperature-control/" class="title">Freezer Temperature Control.</a></p>
+                            <p class="item-date"><time datetime="2017-07-12T03:00:00.000Z" itemprop="datePublished">2017-07-11</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2017/07/05/kegerator-vs-keezer/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/2017/07/05/kegerator-vs-keezer/keezer-vs-kegerator.png)" alt="Kegerator -vs- Keezer" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2017/07/05/kegerator-vs-keezer/" class="title">Kegerator -vs- Keezer</a></p>
+                            <p class="item-date"><time datetime="2017-07-06T03:00:00.000Z" itemprop="datePublished">2017-07-05</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2017/07/01/the-magic-of-the-keezer/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/2017/07/01/the-magic-of-the-keezer/magic-electronic-components.png)" alt="The Magic of the Keezer" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2017/07/01/the-magic-of-the-keezer/" class="title">The Magic of the Keezer</a></p>
+                            <p class="item-date"><time datetime="2017-07-01T15:00:00.000Z" itemprop="datePublished">2017-07-01</time></p>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+            
+                
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">archives</h3>
+        <div class="widget">
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/07/">July 2017</a><span class="archive-list-count">4</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">tags</h3>
+        <div class="widget">
+            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/beer/">beer</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/graphics/">graphics</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/inkscape/">inkscape</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/keezer/">keezer</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/kegerator/">kegerator</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/software/">software</a><span class="tag-list-count">1</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-float">
+        <h3 class="widget-title">tag cloud</h3>
+        <div class="widget tagcloud">
+            <a href="/tags/beer/" style="font-size: 20px;">beer</a> <a href="/tags/graphics/" style="font-size: 10px;">graphics</a> <a href="/tags/inkscape/" style="font-size: 10px;">inkscape</a> <a href="/tags/keezer/" style="font-size: 20px;">keezer</a> <a href="/tags/kegerator/" style="font-size: 15px;">kegerator</a> <a href="/tags/software/" style="font-size: 10px;">software</a>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">links</h3>
+        <div class="widget">
+            <ul>
+                
+            </ul>
+        </div>
+    </div>
+
+
+            
+        
+    </div>
+</aside>
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+    <div class="container">
+        <div class="container-inner">
+            <a id="back-to-top" href="javascript:;"><i class="icon fa fa-angle-up"></i></a>
+            <div class="credit">
+                <h1 class="logo-wrap">
+                    <a href="/" class="logo"></a>
+                </h1>
+                <p>&copy; 2017 Sam Kristoff</p>
+                <p>Powered by <a href="//hexo.io/" target="_blank">Hexo</a>. Theme by <a href="//github.com/ppoffice" target="_blank">PPOffice</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+        
+    
+    <script>
+    var disqus_shortname = 'samkristoff';
+    
+    
+    var disqus_url = 'http://samkristoff.com/2017/07/16/font-awesome-hackster-logo/';
+    
+    (function() {
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+
+
+
+
+    
+        <script src="/libs/lightgallery/js/lightgallery.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-thumbnail.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-pager.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-autoplay.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-fullscreen.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-zoom.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-hash.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-share.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-video.min.js"></script>
+    
+    
+        <script src="/libs/justified-gallery/jquery.justifiedGallery.min.js"></script>
+    
+    
+
+
+
+<!-- Custom Scripts -->
+<script src="/js/main.js"></script>
+
+    </div>
+</body>
+</html>

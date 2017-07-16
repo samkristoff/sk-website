@@ -1,7 +1,10 @@
 ---
 title: Freezer Temperature Control.
 date: 2017-07-11 20:00:00
-tags: kegerator, keezer, beer
+tags: 
+  - kegerator
+  - keezer 
+  - beer
 ---
 
 {% asset_img temperature-control.png 38 Degrees%}

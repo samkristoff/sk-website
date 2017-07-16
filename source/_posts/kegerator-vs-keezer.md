@@ -1,7 +1,10 @@
 ---
 title: Kegerator -vs- Keezer
 date: 2017-07-05 20:00:00
-tags: kegerator, keezer, beer
+tags: 
+  - kegerator
+  - keezer 
+  - beer
 ---
 
 {% asset_img keezer-vs-kegerator.png Kegerator -vs- Keezerc%}
