@@ -2,8 +2,8 @@
 title: Adding Custom Icon to Font Awesome
 date: 2017-07-16 08:51:11
 tags:
-  - software
-  - graphics
+  - web development
+  - graphic design
   - inkscape
 ---
 
